@@ -15,11 +15,11 @@ int main(int argc, char* argv[]) {
     }
     
     FILE* in = fopen(argv[1], "r");
-    FILE* out = fopen(argv[2], "w");
     if (in == NULL) {
         perror("fopen()");
         goto error_handle_1;
     }
+    FILE* out = fopen(argv[2], "w");
     if (out == NULL) {
         perror("fopen()");
         fclose(in);

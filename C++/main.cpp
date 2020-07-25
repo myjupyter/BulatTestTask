@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
         std::size_t n = 0, m = 0;
         in >> n >> m;
         if (in.fail()) {
-            std::cerr << std::string(argv[1]) + " has wrong format!" << std::endl;
+            std::cerr << "Something is wrong with " + std::string(argv[1]) << std::endl;
             return 1;
         }
 
