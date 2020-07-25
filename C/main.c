@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     srand(time(NULL));
 
     if (argc < 3) {
-        perror("./<program> <inputfile> <outputfile>");
+        fprintf(stderr,"./<program> <inputfile> <outputfile>");
         return -1;
     }
     
