@@ -6,4 +6,4 @@
 
 ## Running
 1. Create file.txt and put two integer numbers into (rows and columns)
-2. `./C(C++)/a.out file.txt result.txt`
+2. `./C/a.out file.txt result.txt` or `./C++/a.out file.txt result.txt`
